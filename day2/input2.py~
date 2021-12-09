@@ -1,0 +1,9 @@
+#This time ask the user a numerical question, such as, "Please enter your age." See what type of data input() returns.
+
+
+ans_1= input("please enter your age")
+ans_1 = int(ans_1)
+print("you are" + ans_1)
+
+print(type(ans_1))
+
